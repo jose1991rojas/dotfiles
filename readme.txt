@@ -8,11 +8,16 @@
 "In the Gitflow methodology, feature/, hotfix/, and release/ branches are usually local, but it is a best practice to push them if you want a cloud backup of your 'work in progress
 
  HEAD
+ HEAD
 
 
-=
+
 .
  hotfix/fix_now
+=
+.
+
+ feature/my_new_alias
 
 
 
