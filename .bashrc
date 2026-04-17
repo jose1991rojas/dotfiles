@@ -157,3 +157,5 @@ fi
 
 #Estoy modificando el prompt a color verde en todo mi sistema de terminal.
 export PS1="\[\e[42;30m\] \u@\h \[\e[0m\] \[\e[34m\]\w\[\e[0m\] \$ "
+
+alias wd='cd /mnt/c/Users/Admin/Desktop/'
