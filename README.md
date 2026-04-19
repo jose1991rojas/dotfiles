@@ -1,6 +1,22 @@
 # dotfiles
 I add my hidden configuration files on Unix-like operating systems (Linux/macOS) that start with a dot (e.g., .bashrc, .vimrc and others a through time). With methodology Git-Flow.
 
+### 🌿 Gitflow Branching Model
+- `master`: Stable, production-ready code.
+- `develop`: Main integration branch for features.
+- `feature/*`: Dedicated branches for new functionalities.
+- `release/*`: Preparation for a new production release (final testing/bug fixing).
+- `hotfix/*`: Emergency fixes for production bugs that cannot wait for the next release.
+
+### 📝 Conventional Commits
+Commit messages follow the format `<type>(<scope>): <description>`:
+- `feat:` A new feature.
+- `fix:` A bug fix.
+- `docs:` Documentation only changes.
+- `refactor:` A code change that neither fixes a bug nor adds a feature.
+- `chore:` Maintenance tasks (updates to libraries or configuration).
+
+
 # Git-Flow. Methodology
 <img width="1400" height="788" alt="image" src="https://github.com/user-attachments/assets/136c50e5-549b-4c0c-959b-22aaf747c715" />
 
