@@ -159,3 +159,7 @@ fi
 export PS1="\[\e[42;30m\] \u@\h \[\e[0m\] \[\e[34m\]\w\[\e[0m\] \$ "
 
 alias wd='cd /mnt/c/Users/Admin/Desktop/'
+
+# I add alias for git log with functions name of autor of commits, date(day,month and year), name of branchs and time (hour and minute).
+#@author: Eng. Jose Rojas from venezuela.
+alias glog="git log --graph --all --pretty=format:'%C(yellow)%h%Creset %C(cyan)%ad%Creset %C(blue) [%an]%Creset %C(auto)%d%Creset %s' --date=format:'%d-%m-%Y %H:%M'"
