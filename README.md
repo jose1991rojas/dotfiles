@@ -1,9 +1,13 @@
 # dotfiles
-I add my hidden configuration files on Unix-like operating systems (Linux/macOS) that start with a dot (e.g., .bashrc, .vimrc and others a through time).
+I add my hidden configuration files on Unix-like operating systems (Linux/macOS) that start with a dot (e.g., .bashrc, .vimrc and others a through time). With methodology Git-Flow.
 
+# Git-Flow. Methodology
+<img width="1400" height="788" alt="image" src="https://github.com/user-attachments/assets/136c50e5-549b-4c0c-959b-22aaf747c715" />
+
+# .Dotfiles. 
 <img width="644" height="315" alt="image" src="https://github.com/user-attachments/assets/9aada93a-7ae6-44f2-9585-2891e8ef5c49" />
 
-🚀 How to Setup (Installation)
+# 🚀 How to Setup (Installation)
 To apply these configurations to your local environment, follow these steps:
 
 # 1. Clone the repository
@@ -32,8 +36,10 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 To see the new Green Matrix Prompt and the Cursor settings immediately, run:
 
 source ~/.bashrc
+# Execute command:
+<img width="1208" height="841" alt="image" src="https://github.com/user-attachments/assets/f5aac62a-e059-4252-a3ed-0c22b67513da" />
 
-For vim it is automatic just open and use the tool
+For vim it is automatic just open and use the tool. Successfully installation of file .bashrc in your terminal for your all Linux system.
 
    ---------    
   | SUMMARY | 
