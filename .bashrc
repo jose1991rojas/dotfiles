@@ -155,11 +155,23 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#Estoy modificando el prompt a color verde en todo mi sistema de terminal.
-export PS1="\[\e[42;30m\] \u@\h \[\e[0m\] \[\e[34m\]\w\[\e[0m\] \$ "
+# Funcion para extraer la rama de git
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# My new name in my terminal in all system...
+export HOSTNAME="Linux"
+
+# Estoy modificando el prompt a color verde en todo mi sistema de terminal y ramas de git.
+# And add $HOSTNAME how my new name in al my sytem of terminal
+# export PS1="\[\e[42;30m\] \u@$HOSTNAME \[\e[0m\] \[\e[34m\]\w\[\e[0m\] \$ " # Por si la lleg a necesitar en el futuro
+export PS1="\[\e[42;30m\] \u@$HOSTNAME \[\e[0m\] \[\e[34m\]\w\[\e[33m\]\$(parse_git_branch)\[\e[0m\] \$ "
+
 
 alias wd='cd /mnt/c/Users/Admin/Desktop/'
 
 # I add alias for git log with functions name of autor of commits, date(day,month and year), name of branchs and time (hour and minute).
 #@author: Eng. Jose Rojas from venezuela.
 alias glog="git log --graph --all --pretty=format:'%C(yellow)%h%Creset %C(cyan)%ad%Creset %C(blue) [%an]%Creset %C(auto)%d%Creset %s' --date=format:'%d-%m-%Y %H:%M'"
+
