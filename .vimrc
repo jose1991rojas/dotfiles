@@ -41,3 +41,6 @@ endif
 " --- Codificación ---
 set encoding=utf-8
 set fileencoding=utf-8
+
+"Esto obligará a Vim a guardar siempre en formato Linux, eliminando los ^M automáticamente al guardar con :w
+set fileformat=unix
